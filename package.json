@@ -1,0 +1,45 @@
+{
+  "name": "sedaliquam",
+  "version": "1.0.0",
+  "description": "Get current and historical prices from uniswap decentralized exchange. Request prices by block number, by date, or request price trend for the last 6 months.",
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "vel",
+    "pariatur",
+    "excepturi",
+    "utilties",
+    "quo",
+    "dex",
+    "cryptocurrency"
+  ],
+  "main": "./lib/uniprices.js",
+  "homepage": "https://github.com/GaetanoHomenick/sedaliquam.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaetanoHomenick/sedaliquam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GaetanoHomenick/sedaliquam.git/issues"
+  },
+  "author": "JakeHintz",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^8.0.1",
+    "web3": "^1.2.7"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "ethereum-block-by-date": "^1.2.4"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "maintained node versions"
+  ]
+}
